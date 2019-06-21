@@ -1,31 +1,21 @@
 <template>
-  <div id="app">
-    <Header />
-    <Home />
-    <Footer />
+  <div id="app">        
   </div>
 </template>
 
 <script>
 
-import Header from './components/header/header.vue';
-import Footer from './components/footer/footer.vue';
-import Home from './pages/home.vue';
-
 export default {
   name: 'app',
   data(){
-    return {}
+    return {
+      messagem: 'Esta é a mensagem'
+    }
   },
-  components: {
-    Header: Header,
-    Footer: Footer,
-    Home: Home
-  },  
+  components: {},  
 }
 </script>
 
 <style>
-@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
 
 </style>

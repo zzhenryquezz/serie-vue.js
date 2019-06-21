@@ -1,6 +1,5 @@
 # blog-vue
 link da serie: [Ver Serie](https://www.youtube.com/playlist?list=PLwquE-iFKDdfXzFC7Ql-vCbNvl_YtwxVP)
-
 ## Project setup
 ```
 npm install
